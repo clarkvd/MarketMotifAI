@@ -180,20 +180,15 @@ MarketMotifAI/
 ├── data/                  # Preprocessed market data
 ├── models/                # Sample trained models per ticker
 ├── src/                   # Core source code (feature extraction, clustering, ML)
-│   ├── detection/         # Volatility peak finder (MACS-style)
-│   ├── feature_engineering/
-│   ├── motif_analysis/
-│   ├── model_training/
-│   └── visualization/
+│   ├── call_peaks.py         
+│   ├── get_sequences.py
+│   ├── main.py
+│   ├── motif_analysis.py
+│   ├── optimize_thresholds.py
+│   └── train_model.py
 │
-├── notebooks/             # Jupyter walkthroughs and demos
-├── tests/                 # Unit tests (pytest)
-├── config/                # Config YAMLs or param files
-├── examples/              # Scripted examples for end-to-end pipeline
+├── notebooks/             # Jupyter walkthrough and demo
 │
 ├── LICENSE
 ├── README.md
-├── requirements.txt
-├── setup.py               # Installable package setup
-├── .gitignore
-└── .env.example           # Template for environment variables
+└── requirements.txt 
