@@ -1,5 +1,7 @@
 # 📈 MarketMotifAI: Translating Genomic Signal Detection to Market Fragility Forecasting
 
+> 🔗 Visit the companion project: [SignalFrame](https://signalframe.link) — genomic signal processing tools for biological and financial time series.
+
 MarketMotifAI applies concepts from **genomics** to **financial time-series**, detecting patterns of risk buried in noisy volatility signals — much like how MACS detects transcription factor binding events in DNA. 
 
 This interdisciplinary project explores how volatility behaves like genomic signal — governed by structure, context, and motifs — and builds a full ML pipeline to uncover, interpret, and predict emerging fragility in financial markets.
